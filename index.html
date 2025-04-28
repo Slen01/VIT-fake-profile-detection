@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Fake Account Detection</title>
+</head>
+<body>
+    <h1>Fake Account Detection for Instagram</h1>
+    <form method="POST">
+        <p>
+            <label for="account_url">Instagram Account URL</label><br>
+            <input type="text" name="account_url" id="account_url" size="32"><br>
+            <input type="submit" value="Check Account">
+        </p>
+    </form>
+    {% if result %}
+        <h2>Result: {{ result }}</h2>
+    {% endif %}
+</body>
+</html>
