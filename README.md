@@ -1,5 +1,8 @@
 Fake Profile Detection in Python
+
+
 Introduction
+
 The rise of social media and online platforms has made user-generated profiles a primary interaction medium. Unfortunately, this openness has also led to the proliferation of fake profiles created for spam, fraud, phishing, misinformation, and other malicious purposes. Detecting these fake profiles automatically has become crucial.
 
 Fake profile detection involves analyzing profile attributes, activities, and connections to distinguish genuine users from fake ones. Python, with its rich ecosystem of libraries, provides a powerful toolkit to build detection systems using rule-based methods, machine learning, and deep learning.
@@ -63,7 +66,9 @@ Pandas: Data manipulation.
 Scikit-learn: ML models.
 
 XGBoost/LightGBM: Boosting models.
+
 Conclusion
+
 Fake profile detection is a dynamic, evolving field. Using Python’s ML libraries, you can build powerful models that combine structured data analysis, text processing, and even social graph mining. However, attackers constantly innovate, requiring continual model updates and intelligent feature engineering.
 
 By focusing on smart features, hybrid models, and continuous evaluation, Python-based systems can become highly effective at identifying fake profiles and maintaining platform integrity.
